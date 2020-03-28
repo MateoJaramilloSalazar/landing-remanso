@@ -34,6 +34,15 @@ font-weight: 600;
 font-size: 15px;
 }
 
+.navbar li a{
+  margin-right: 10px;
+  font-family: 'PT Sans', sans-serif;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  }
+
 .principal{
 height: 600px;
 background-image: url(img/recortes/Remanso-06.png);
