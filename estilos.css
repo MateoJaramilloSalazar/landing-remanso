@@ -5,6 +5,12 @@ top: 0px;
 margin: 0px;
 }
 
+#header {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+
 .logo{
 position: absolute;
 left: 50px;
