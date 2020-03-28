@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|PT+Sans:400,400i,700,700i&display=swap&subset=latin-ext');
+
+body{
+top: 0px;
+margin: 0px;
+}
+
+.logo{
+position: absolute;
+left: 50px;
+top: 0px;
+z-index: 99;
+max-width: 250px;
+}
+
+.menu{
+background-color: #46200D;
+height: 30px;
+padding: 10px 0px 0px 0px;
+}
+
+.navbar{
+display: flex;
+flex-wrap: nowrap;
+margin: auto;
+justify-content: center;
+}
+
+.navbar li{
+margin-right: 10px;
+font-family: 'PT Sans', sans-serif;
+color: #fff;
+font-weight: 600;
+font-size: 15px;
+}
+
+.principal{
+height: 600px;
+background-image: url(img/recortes/Remanso-06.png);
+background-position: center bottom;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.central{
+display: flex;
+flex-wrap: nowrap;
+padding-top: 10%;
+justify-content: center;
+}
+
+.central img{
+Width: 25%;
+}
+
+.datos {
+Width: 25%;
+background-color: #B25D31;
+border-radius: 0px 0px 50px 0px;
+text-align: center;
+}
+
+.datos h2{
+color:#46200D;
+font-weight: 100;
+font-family: 'PT Sans', sans-serif;
+text-align: center;
+font-size: 16px;
+margin-bottom: 0px;
+text-transform: uppercase;
+}
+
+.datos h3{
+color:#46200D;
+font-weight: 600;
+font-family: 'PT Sans', sans-serif;
+text-align: center;
+font-size: 16px;
+line-height: 14px;
+margin-top: 0px;
+text-transform: uppercase;
+}
+
+.datos p{
+color:#fff;
+font-weight: 100;
+text-align: center;
+font-size: 10px;
+line-height: 10px;
+margin-top: -10px;
+font-family: 'PT Sans', sans-serif;
+}
+
+.form input[type="text"], .form input[type="tel"], .form input[type="email"] {
+border-radius: 3px;
+margin-bottom: 10px;
+border: 0px;
+border-style: none;
+width: 80%;
+color: #878787;
+font-size: 10px;
+padding: 5px;
+font-family: 'PT Sans', sans-serif;
+}
+
+#comentario {
+border-radius: 3px;
+margin-bottom: 10px;
+border: 0px;
+border-style: none;
+width: 80%;
+color: #878787;
+font-size: 10px;
+padding: 5px;
+height: 40px;
+vertical-align: super;
+font-family: 'PT Sans', sans-serif;
+}
+    
+.form input[type="submit"] {
+border-radius: 3px;
+margin-bottom: 10px;
+border: 0px;
+border-style: none;
+width: 25%;
+color: #fff;
+background-color: #46200D;
+font-size: 12px;
+padding: 5px;
+font-family: 'PT Sans', sans-serif;
+text-transform: uppercase;
+font-weight: 800;
+}
+
+#proyecto {
+display: flex;
+flex-wrap: nowrap;
+justify-content: center;
+background-color: #F5F5F5;
+
+
+}
+
+#proyecto img {
+max-width: 50%;
+}
+
+#texto-proyecto{
+padding:30px 100px 50px 100px;
+font-family: 'PT Sans', sans-serif;
+font-size: 12px;
+color: #3E3E3E;
+}
+
+#texto-proyecto h2{
+font-family: 'Bebas Neue', cursive;
+font-size: 26px;
+background-color: #E7E7E7;
+color: #46200D;
+width: 30%;
+padding: 10px 30px 10px 30px;
+border-radius: 10px 0px 10px 0px;
+text-align: center;
+letter-spacing: 5px;
+}
+
+#texto-proyecto ul {
+list-style-image: url(img/recortes/icon-list.jpg);
+}     
+
+#zonas-comunes {
+background-color: #F5F5F5;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 30px;
+}
+
+#zonas-comunes h2{
+font-family: 'Bebas Neue', cursive;
+font-size: 26px;
+background-color: #E7E7E7;
+color: #46200D;
+margin: auto;
+width: 15%;
+padding: 10px 30px 10px 30px;
+border-radius: 10px 0px 10px 0px;
+text-align: center;
+letter-spacing: 5px;
+}
+
+#zonas-comunes h3{
+font-family: 'PT Sans', sans-serif;
+font-size: 18px;
+font-style: italic;
+color: #3E3E3E;
+font-weight: 100;
+}
+
+#iconos-zonas-a img{
+max-width: 150px;
+padding: 30px;
+}
+
+#iconos-zonas-b img{
+max-width: 150px;
+padding: 30px;
+}
+
+/*galeria*/
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    
+  margin:0px 80px 0px 80px;
+        color: white;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 0px;
+    user-select: none;
+       -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+opacity: 0.5; 
+transition: 0.2s;
+}
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+   /*fin-galeria*/
+
+#tipologias {
+  text-align: center;
+  margin-top: -4px;
+}
+
+#tipologias #title {
+  width: 35%;
+  margin-bottom: 50px;
+}
+
+#tipologias #sub {
+width: 50%;
+margin-bottom: 50px;
+}
+
+/*PLANOS*/
+#planos-a, #planos-b {
+  display: flex;
+  flex-wrap: nowrap;
+    justify-content: center
+}
+
+div.gallery {
+  margin: 10px;
+  width: 240px;
+}
+
+div.gallery:hover {
+  opacity: .5;
+  transition: 0.2s;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+/*FIN PLANOS*/
+
+#form-inferior {
+  height: 55%;
+  background-image: url(img/recortes/Remanso-27.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+  margin-top: 50px;
+
+  text-align: center;
+}
+
+#form-inferior h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 26px;
+    background-color: #C85B30;
+    color: #46200D;
+    margin: auto;
+    width: 15%;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px 0px 10px 0px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+#form-inferior h3{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  color: #fff;
+  font-weight: 100;
+
+}
+
+#form-inferior #form {
+  margin: auto;
+  width: 60%;
+}
+
+
+#form-inferior #form #campos-a, #form-inferior #form #campos-b, #form-inferior #form #campos-c{
+  display: flex;
+  flex-wrap: nowrap;
+    justify-content: center;
+    
+}
+
+#form-inferior #form #campos-d{
+  display: flex;
+  flex-wrap: nowrap;
+    justify-content: flex-end;
+
+    
+    
+}
+
+#form-inferior #form input[type="text"], #form-inferior #form input[type="tel"], #form-inferior #form input[type="email"]{
+      border-radius: 3px;
+    margin: 10px;
+    border: 0px;
+    border-style: none;
+    width: 100%;
+    color: #878787;
+    font-size: 10px;
+    padding: 10px;
+    font-family: 'PT Sans', sans-serif;
+    height: 25px;
+    }
+    
+    #form-inferior #form #comentario {
+    border-radius: 3px;
+    margin: 10px;
+    border: 0px;
+    border-style: none;
+    width: 100%;
+    color: #878787;
+    font-size: 10px;
+    padding: 10px;
+    height: 50px;
+    vertical-align: super;
+    font-family: 'PT Sans', sans-serif;
+    }
+        
+    #form-inferior #form input[type="submit"] {
+    border-radius: 3px;
+    margin: 10px;
+    border: 0px;
+    border-style: none;
+    width: 10%;
+    color: #fff;
+    background-color: #46200D;
+    font-size: 12px;
+    padding: 5px;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+
+}
+
+#form-inferior p{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 10px;
+  color: #fff;
+  font-weight: 100;
+
+}
+
+#mapa {
+background-color: #F5F5F5;
+text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+
+#mapa h2{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 26px;
+  background-color: #E7E7E7;
+  color: #46200D;
+  margin: auto;
+  width: 10%;
+  padding: 10px 30px 10px 30px;
+  border-radius: 10px 0px 10px 0px;
+  text-align: center;
+  letter-spacing: 5px;
+  }
+  
+  #mapa h3{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  color: #3E3E3E;
+  font-weight: 100;
+  margin-bottom: 30px;
+  }
+
+#mapa img {
+  width: 35%;
+}
+
+#grupo {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  }
+  
+  
+  #grupo h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 26px;
+    background-color: #E7E7E7;
+    color: #46200D;
+    margin: auto;
+    width: 20%;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px 0px 10px 0px;
+    text-align: center;
+    letter-spacing: 5px;
+    }
+
+    #grupo img{
+      width: 20%;
+      margin-top: 30px;
+    }
+
+    #sala {
+      height: 55%;
+      background-image: url(img/recortes/Remanso-36.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 30px;
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    #sala h2{
+      font-family: 'Bebas Neue', cursive;
+      font-size: 26px;
+      color: #46200D;
+      margin: auto;
+      text-align: center;
+      letter-spacing: 5px;
+      }
+
+
+      #sala #puntos-contacto {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: nowrap;
+          justify-content: center;
+
+      }
+
+#sala #puntos-contacto h3 {
+  font-family: 'PT Sans', sans-serif;
+  color: #46200D;
+  font-size: 14px;
+  font-weight: 800;
+  margin: 0px;
+
+}
+
+#sala #puntos-contacto p {
+  font-family: 'PT Sans', sans-serif;
+  color: #46200D;
+  font-size: 14px;
+  font-weight: 100;
+  margin:0px;
+}
+
+#sala #puntos-contacto .punto {
+margin: 20px;
+}
+
+#sala #puntos-contacto .punto img {
+  width: 50px;
+  }
+
+
+#sala p {
+  font-family: 'PT Sans', sans-serif;
+  color: #46200D;
+  font-size: 12px;
+  font-weight: 100;
+  margin: 20px 15% 20px 15%;
+}
+
+#sala img {
+  width: 120px;
+}
